@@ -1,0 +1,49 @@
+h1, p{
+	color: blue;
+}
+body {
+	background-color:lightblue;
+	
+}
+table{
+	width: 30%;
+	border-collapse: collapse;   /* no hay separación entre celdas */
+}
+th, td{
+	border:solid 1px green;
+	padding:2px;
+}
+th:hover{
+	background-color: gray;
+	cursor: pointer;   /* Así se pone una mano como cursor cuando este está sobre un th */
+}
+a:link{
+	color:blue;
+}
+a:visited{
+	color:blue;
+}
+a:hover{
+	color:blue;
+}
+a:active{
+	color:black;
+}
+footer{
+
+position: relative;
+
+left: 0;
+
+bottom: 0;
+
+width: 100%;
+
+background-color: green;
+
+color: black;
+
+text-align: center;
+
+
+}

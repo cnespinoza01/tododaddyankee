@@ -1,0 +1,6 @@
+table, td
+ { border:1px solid black; }
+ th:hover{
+	background-image:url("fondo.jpg");
+} 
+	cursor: pointer;   /* Así se pone una mano como cursor cuando este está sobre un th */
